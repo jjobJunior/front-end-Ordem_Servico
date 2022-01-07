@@ -4,7 +4,7 @@
             <a mat-list-item routerlink="/">
                 <i class="material-icons">home</i>Home
             </a>
-            <a mat-list-item routerlink="/">
+            <a mat-list-item routerlink="tecnicos">
                 <i class="material-icons">work</i>Técnico
             </a>
             <a mat-list-item routerlink="/">
@@ -20,6 +20,7 @@
         <button type="button" mat-button (click)="drawer.toggle()">
         <mat-icon>more_vert</mat-icon>
       </button>
+        <router-outlet></router-outlet>
     </div>
 
 </mat-drawer-container>
